@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body id="yamaha">
+
+    <a href="index.html"><img id="icone" src="imagenes/suzukiLogo.png" alt=""></a>
+   
+    <ul id="Principal">
+        <li id="principal"><a href= "honda.html"><button class="raise" onmouseover="mudaFoto('imagenes/hondaLogo.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">Honda</button></a></li>
+        <li id="principal"><a href="yamaha.html"><button class="raise"onmouseover="mudaFoto('imagenes/yamahaLogo.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">Yamaha</button></a></li>
+        <li id="principal"><a href="ktm.html"><button class="raise" onmouseover="mudaFoto('imagenes/ktmLogo.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">Ktm</button></a></li>
+        <li id="principal"><a href="bmw.html"><button class="raise" onmouseover="mudaFoto('imagenes/bmw1.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">BMW</button></a></li>
+        <li id="principal"><a href="suzuki.html"><button class="raise" onmouseover="mudaFoto('imagenes/suzukiLogo.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">Suzuki</button></a></li>
+        <li id="principal"><a href="triumph.html"><button class="raise" onmouseover="mudaFoto('imagenes/triumphLogo.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">Triumph</button></a></li>
+        <li id="principal"><a href="ducati.html"><button class="raise" onmouseover="mudaFoto('imagenes/ducatiLogo.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">Ducati</button></a></li>
+        <li id="principal"><a href="kawasaki.html"><button class="raise" onmouseover="mudaFoto('imagenes/kawasakiLogo.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">Kawasaki</button></a></li>
+    </ul>
+    <ul class="shadow-button-set">
+        <li><button onclick="mostrarLista('miListaH1')">Enduro</button></li>
+        <li><button onclick="mostrarLista('miListaH2')">Naked</button></li>
+        <li><button onclick="mostrarLista('miListaH3')">Deportiva</button></li>
+        <li><button onclick="mostrarLista('miListaH4')">Scooter</button></li>
+        <li><button><a href="index.html">Home</a></button></li>
+    </ul>
+      <a href="yamaha.html"><img id="modelo" src="imagenes/home.png" alt="Honda" style="display: none;" ></a>
+
+
+      <ul id="miListaH1" class="lista">
+          <li><button onclick="AgregaFoto('imagenes/yamaha/WR250F.jpeg')">WR250F</button></li>
+          <li><button onclick="AgregaFoto('imagenes/yamaha/WR450F.jpeg')">WR450F</button></li>
+          <li><button onclick="AgregaFoto('imagenes/yamaha/YZF450F.webp')">YZF450F</button></li>
+      </ul>  
+      <ul id="miListaH2" class="lista">
+          <li><button onclick="AgregaFoto('imagenes/yamaha/MT-03.jpg')">MT-03</button></li>
+          <li><button onclick="AgregaFoto('imagenes/yamaha/MT-07.webp')">MT-07</button></li>
+          <li><button onclick="AgregaFoto('imagenes/yamaha/MT-09.avif')">MT-09</button></li>
+          <li><button onclick="AgregaFoto('imagenes/yamaha/MT-10.avif')">MT-10</button></li>
+          
+      </ul>
+      <ul id="miListaH3" class="lista">
+          <li><button onclick="AgregaFoto('imagenes/yamaha/R15 V4.jpeg')">R15 V4</button></li>
+          <li><button onclick="AgregaFoto('imagenes/yamaha/R3 A.jpeg')">R3 A</button></li>
+          <li><button onclick="AgregaFoto('imagenes/yamaha/R7.webp')">R7</button></li>
+          <li><button onclick="AgregaFoto('imagenes/yamaha/R1.jpeg')">R1</button></li>
+      </ul>
+      <ul id="miListaH4" class="lista">
+          <li><button onclick="AgregaFoto('imagenes/yamaha/NMAX 160 ABS.jpeg')">NMAX 160 ABS</button></li>
+          <li><button onclick="AgregaFoto('imagenes/yamaha/NEO 125 UBS.jpeg')">NEO 125 UBS</button></li>
+          <li><button onclick="AgregaFoto('imagenes/yamaha/FLUO ABS.jpeg')">FLUO ABS</button></li>
+      </ul>
+      
+      <script src="script.js"></script>
+</body>
+</html>

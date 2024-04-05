@@ -1,0 +1,332 @@
+@charset "UFT-8";
+
+
+body#index{
+    background: url(../imagenes/background2.jpeg);
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; 
+}
+body#honda{
+    background: url(../imagenes/backgroundHonda.webp);
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; 
+}
+body#bmw{
+    background: url(../imagenes/backgroundBmw.webp);
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; 
+}
+body#ducati{
+    background: url(../imagenes/backgroundDucati.jpg);
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; 
+}
+body#kawasaki{
+    background: url(../imagenes/backgroundKawasaki.jpg);
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; 
+}
+body#ktm{
+    background: url(../imagenes/backgroundKtm.jpg);
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; 
+}
+body#suzuki{
+    background: url(../imagenes/backgroundSuzuki.jpg);
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; 
+}
+body#triumph{
+    background: url(../imagenes/backgroundTriumph.jpg);
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; 
+}
+body#yamaha{
+    background: url(../imagenes/backgroundYamaha.jpg);
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; 
+}
+
+
+ul#Principal{
+    list-style-type: none;
+    display: block;
+    position: absolute;
+
+}
+li#principal{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+li#principal:hover{
+    text-decoration: none;
+}
+img#icone {
+    position: absolute;
+    right: 10px;
+    top: 500px;
+    width: 100px;
+    height: 100px;
+}
+
+img#modelo{
+  position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 200px;
+    right: 500px;
+    border: 2px solid black;
+
+}
+
+
+
+
+/*Botones de marcas */
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+.close:hover,
+.close:focus {
+  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+}
+
+.up:hover,
+.up:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+
+.offset {
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+.offset:hover, .offset:focus {
+  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+button {
+  background: black;
+  border: 1px solid white;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+button {
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #d0db31;
+}
+.raise {
+    font-weight: bold ;
+  --color: red;
+  --hover: red;
+}
+
+
+/*-----------------------*/
+
+
+
+/*Tipos de moto estilo de menu*/
+
+.shadow-button-set {
+    
+padding: 0;
+  margin: 0;
+  margin-right: 1120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0vmin;
+  color: red;
+  font-weight: bold;
+  
+  & > li {
+    display: inline-flex;
+    background: rgba(0, 0, 0, .4);
+    
+    &:is(:hover, :focus-within) > button:not(:active) {
+      --distance: -10px;
+    }
+  }
+  
+  & button {
+    appearance: none;
+    outline: none;
+    font-size: 20px;
+    border: 3px solid white;
+    background: rgba(0, 0, 0, 0);
+    width: 200px;
+    height: 60px;
+    
+    --distance: 0;
+    transform: translateX(var(--distance)) translateY(var(--distance));
+    
+    @media (prefers-reduced-motion: no-preference) {
+      will-change: transform;
+      transition: transform .2s ease ;
+    }
+  }
+  
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  block-size: 100%;
+}
+
+body {
+  min-block-size: 100%;
+  font-family: system-ui, sans-serif;
+  
+  display: grid;
+  place-content: center;
+}
+
+/*------------------------------------*/
+
+/* Agrega estilos para los botones dentro de las listas */
+.lista button {
+    background-color: transparent; /* Hace el fondo transparente */
+    border: none; /* Elimina el borde */
+    padding: 0; /* Elimina el relleno interno */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    margin: 0;
+}
+
+/* Estilo adicional si es necesario */
+.lista button:hover {
+    /* Agrega estilos cuando el mouse está sobre el botón */
+    background-color: #eaeaea; /* Cambia el color de fondo al pasar sobre el botón */
+}
+
+ul#miListaH1{
+    position: absolute;
+    display: none;
+    left: 220px;
+    top: 120px;
+    list-style: square;
+    
+}
+#miListaH1 li{
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+ul#miListaH2{
+  position: absolute;
+    display: none;
+    left: 220px;
+    top: 190px;
+    list-style: square;
+    
+}
+#miListaH2 li{
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+ul#miListaH3{
+  position: absolute;
+    display: none;
+    left: 220px;
+    top: 270px;
+    list-style: square;
+    
+}
+#miListaH3 li{
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+ul#miListaH4{
+  position: absolute;
+    display: none;
+    left: 220px;
+    top: 350px;
+    list-style: square;
+    
+}
+#miListaH4 li{
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+/*---------------------------------------------------------------------------*/
+
+#texto {
+  display: none; /* Inicialmente ocultamos el texto */
+  font-size: 100px; /* Tamaño de fuente del texto */
+  color: white; /* Color del texto */
+  position: absolute;
+  top: 100px;
+  right: 100px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body id="suzuki">
+
+    <a href="index.html"><img id="icone" src="imagenes/suzukiLogo.png" alt=""></a>
+   
+    <ul id="Principal">
+        <li id="principal"><a href= "honda.html"><button class="raise" onmouseover="mudaFoto('imagenes/hondaLogo.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">Honda</button></a></li>
+        <li id="principal"><a href="yamaha.html"><button class="raise"onmouseover="mudaFoto('imagenes/yamahaLogo.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">Yamaha</button></a></li>
+        <li id="principal"><a href="ktm.html"><button class="raise" onmouseover="mudaFoto('imagenes/ktmLogo.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">Ktm</button></a></li>
+        <li id="principal"><a href="bmw.html"><button class="raise" onmouseover="mudaFoto('imagenes/bmw1.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">BMW</button></a></li>
+        <li id="principal"><a href="suzuki.html"><button class="raise" onmouseover="mudaFoto('imagenes/suzukiLogo.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">Suzuki</button></a></li>
+        <li id="principal"><a href="triumph.html"><button class="raise" onmouseover="mudaFoto('imagenes/triumphLogo.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">Triumph</button></a></li>
+        <li id="principal"><a href="ducati.html"><button class="raise" onmouseover="mudaFoto('imagenes/ducatiLogo.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">Ducati</button></a></li>
+        <li id="principal"><a href="kawasaki.html"><button class="raise" onmouseover="mudaFoto('imagenes/kawasakiLogo.png')" onmouseout="mudaFoto('imagenes/imagen1.png')">Kawasaki</button></a></li>
+    </ul>
+    <ul class="shadow-button-set">
+        <li><button onclick="mostrarLista('miListaH1')">Enduro</button></li>
+        <li><button onclick="mostrarLista('miListaH2')">Naked</button></li>
+        <li><button onclick="mostrarLista('miListaH3')">Deportiva</button></li>
+        <li><button onclick="mostrarLista('miListaH4')">Scooter</button></li>
+        <li><button><a href="index.html">Home</a></button></li>
+    </ul>
+      <a href="suzuki.html"><img id="modelo" src="imagenes/home.png" alt="Honda" style="display: none;" ></a>
+
+
+      <ul id="miListaH1" class="lista">
+          <li><button onclick="AgregaFoto('imagenes/honda/CRF450RX.jpg')">CRF450RX</button></li>
+          <li><button onclick="AgregaFoto('imagenes/honda/CRF250RX.jpg')">CRF250RX</button></li>
+      </ul>  
+      <ul id="miListaH2" class="lista">
+          <li><button onclick="AgregaFoto('imagenes/honda/CB 300F Twister.jpeg')">CB 300F Twister</button></li>
+          <li><button onclick="AgregaFoto('imagenes/honda/CB 500F.webp')">CB 500F</button></li>
+          <li><button onclick="AgregaFoto('imagenes/honda/CB 650 R.jpg')">CB 650 R</button></li>
+          <li><button onclick="AgregaFoto('imagenes/honda/CB 1000 R.png')">CB 1000 R</button></li>
+          <li><button onclick="AgregaFoto('imagenes/honda/CB 1000R Black Edition.webp')">CB 1000R Black Edition</button></li>
+      </ul>
+      <ul id="miListaH3" class="lista">
+          <li><button onclick="AgregaFoto('imagenes/honda/CB 650R.jpg')">CB 650R</button></li>
+          <li><button onclick="AgregaFoto('imagenes/honda/CBR 1000 RR-R Fireblade-SP.jpg')">CBR 1000 RR-R Fireblade-SP</button></li>
+      </ul>
+      <ul id="miListaH4" class="lista">
+          <li><button onclick="AgregaFoto('imagenes/honda/PCX125.jpg')">PCX125</button></li>
+          <li><button onclick="AgregaFoto('imagenes/honda/X-ADV.webp')">X-ADV</button></li>
+          <li><button onclick="AgregaFoto('imagenes/honda/ADV350.png')">ADV350</button></li>
+          <li><button onclick="AgregaFoto('imagenes/honda/Forza 750.webp')">Forza 750</button></li>
+      </ul>
+      
+      <script src="script.js"></script>
+</body>
+</html>
